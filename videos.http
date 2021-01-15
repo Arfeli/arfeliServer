@@ -1,0 +1,19 @@
+@api = http://localhost:5000
+### obtener todos los videos
+GET {{api}}/videos
+### create a video
+GET {{api}}/videos/1
+###
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=EBc06H1WGSs&ab_channel=RockDaniel",
+    "title": "pokemon",
+    "description": "capturando legendarios"
+}
+###
+DELETE  {{api}}/videos/5ffe253d0255b6246444fb12
+
+###
+PUT  {{api}}/videos/1
