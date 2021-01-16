@@ -2,7 +2,7 @@
 ### obtener todos los videos
 GET {{api}}/videos
 ### create a video
-GET {{api}}/videos/1
+GET {{api}}/videos/5ffe26be765e7b2d8c34f1a4
 ###
 POST {{api}}/videos
 Content-Type: application/json
@@ -16,4 +16,9 @@ Content-Type: application/json
 DELETE  {{api}}/videos/5ffe253d0255b6246444fb12
 
 ###
-PUT  {{api}}/videos/1
+PUT  {{api}}/videos/5ffe26be765e7b2d8c34f1a4
+Content-Type: application/json
+
+{
+    "title" : "Pokemons"
+}
